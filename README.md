@@ -16,10 +16,6 @@ The data was obtained from independent, non-commercial organization that utilize
  
  - [Exploratory Data Analysis](Exploratory_Data_Analysis.md)
  
- - [Statistical Inference](Statistical_Inference.md)
- 
- - [Milestone Report](Capstone_1_Milestone_Report.md)
- 
  - [Predictive Modeling](Predictive_Modeling.md)
  
- - [Final Report](Capstone_Report.md)
+ - [Final Report](Capstone_Report.pdf)
