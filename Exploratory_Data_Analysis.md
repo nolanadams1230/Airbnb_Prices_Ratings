@@ -1,8 +1,8 @@
 # Exploratory Data Analysis
 
-[Jupyter Notebook](http://nbviewer.jupyter.org/github/nolanadams1230/Data-Science-Portfolio/blob/master/Springboard%20Data%20Science%20Course/Capstone%201%20-%20AirBnB/Exploratory%20Data%20Analysis.ipynb)
+[Jupyter Notebook](http://nbviewer.jupyter.org/github/nolanadams1230/Airbnb_Prices_Ratings/blob/master/Exploratory%20Data%20Analysis.ipynb)
 
-[Github](https://github.com/nolanadams1230/Data-Science-Portfolio/blob/master/Springboard%20Data%20Science%20Course/Capstone%201%20-%20AirBnB/Exploratory%20Data%20Analysis.ipynb)
+[Github](https://github.com/nolanadams1230/Airbnb_Prices_Ratings/blob/master/Exploratory%20Data%20Analysis.ipynb)
 
 # Overview
 
