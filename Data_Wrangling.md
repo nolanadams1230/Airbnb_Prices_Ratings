@@ -1,8 +1,8 @@
 # Data Wrangling
 
-[Jupyter Notebook](http://nbviewer.jupyter.org/github/nolanadams1230/Airbnb_Prices_Ratings/blob/master/Data%20Wrangling.ipynb)
+[Jupyter Notebook](http://nbviewer.jupyter.org/github/nolanadams1230/Airbnb_Prices_Ratings/blob/master/notebooks/Data%20Wrangling.ipynb)
 
-[Github](https://github.com/nolanadams1230/Airbnb_Prices_Ratings/blob/master/Data%20Wrangling.ipynb)
+[Github](https://github.com/nolanadams1230/Airbnb_Prices_Ratings/blob/master/notebooks/Data%20Wrangling.ipynb)
 
 ## The Data - Inside AirBnB
 
