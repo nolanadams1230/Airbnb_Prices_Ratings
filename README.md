@@ -1,4 +1,4 @@
-# Machine Learning - Predicting Airbnb Prices and Ratings
+# Predicting Airbnb Prices and Ratings
 
 With over 4 million listings in 191 different countries, Airbnb has become an amazing investment opportunity for people all around the world. While it is a remarkable achievement, the supply side continues to grow, which can make being an Airbnb host difficult. What can a host do to allow their listing to stand out and ultimately increase their revenue? This analysis aims to understand the most important factors for predicting  the prices and ratings for every listing in San Francisco.
 
