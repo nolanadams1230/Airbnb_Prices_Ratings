@@ -12,21 +12,17 @@ The data was obtained from independent, non-commercial organization that utilize
 
 We first started out removing the unneeded columns:
 
-* **Unused Keys/IDs:**: 
-  * Unused keys:(last_scraped, scrape_id)
-* **URLs:** 
-  * Links to pictures or the listings that will not be used in the analysis: listing_url, thumbnail_url, medium_url, picture_url, xl_picture_url, host_url, host_thumbnail_url, host_picture_url
+* **Unusable Information:**
+  * Unused keys/ IDs:last_scraped, scrape_id
+  * Information About Host that can't be transformed into a usable variable: license, host_name, host_location, host_neighbourhood, and host_verifications
+  * Calendar Information: The calendar is not very accurate, because it cannot tell the difference between a listing where a host has blacked out their own dates because they aren't renting or a listing with its dates blacked our becuase it has already been booked by customers. A lot of host will black out dates until the time is closer, so the availability metrics don't necessarily represent how many days they have left to rent: availability_30, availability_60, availability_90, availability_365
+  * URLs: listing_url, thumbnail_url, medium_url, picture_url, xl_picture_url, host_url, host_thumbnail_url, host_picture_url
 * **Redundant Information:**
   * Since our analysis takes places in San Francisco, CA the following features all have the same value for each listings: city, state, market, smart_location, country_code, country, jurisdiction_names
   * In our analysis we use the features "zipcode" and "neighbourhood_cleansed" for understanding the impact location has on *Price* and *Ratings*. We don't need the following features, since the previously mentioned two sufficently capture the information needed: latitude, longitude, neighbourhood
    * is_location_exact refers to if the longitude and latitiude are exact or within a mile radius of the listings true location. Since we are not using latitude and longitude in our analysis we can drop this one as well.
   * calculated_host_listings_count, host_total_listings_count, and host_listings_count all have the same values, so we chose to just keep calculated_host_listings_count for our analysis 
-* **Irrelevant Information About Host:**
-  * These are features are text columns that most likely wouldn't have a strong impact on the model if we were to attempt to transform them: license, host_name
-   * I doubt that a customer bases their ratings or how much they are willing to pay off of a host's location or their verifications, so we can drop: host_location, host_neighbourhood, and host_verifications
-* **Calendar Information:** 
-  *  The calendar is not very accurate, because it cannot tell the difference between a listing where a host has blacked out their own dates because they aren't renting or a listing with its dates blacked our becuase it has already been booked by customers. A lot of host will black out dates until the time is closer, so the availability metrics don't necessarily represent how many days they have left to rent: availability_30, availability_60, availability_90, availability_365
-* or Any column with 1 or less unique values
+* or **Any column with 1 or less unique values**
 
 From there we had 56 columns remaining. These included our Response Variables (Price & Ratings), 24 Numerical columns, 11 Text columns, 16 categorical columns, and 4 date/time columns.
 
