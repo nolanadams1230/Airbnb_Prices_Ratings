@@ -10,9 +10,9 @@ The data was obtained from independent, non-commercial organization that utilize
  
 # Process
 
-We first started out by exploring each column to remove the unneeded columns. Information we got rid of included:
+We first started out removing the unneeded columns:
 
-* **Meta Information:**: 
+* **Unused Keys/IDs:**: 
   * Unused keys:(last_scraped, scrape_id)
 * **URLs:** 
   * Links to pictures or the listings that will not be used in the analysis: listing_url, thumbnail_url, medium_url, picture_url, xl_picture_url, host_url, host_thumbnail_url, host_picture_url
